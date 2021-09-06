@@ -177,7 +177,14 @@ def logo():
     else:
         os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title CyberWare DDoS")
     print('''
-    Remake by JetX''')
+    Remake by JetX
+    
+░░░░░██╗███████╗████████╗██╗░░██╗
+░░░░░██║██╔════╝╚══██╔══╝╚██╗██╔╝
+░░░░░██║█████╗░░░░░██║░░░░╚███╔╝░
+██╗░░██║██╔══╝░░░░░██║░░░░██╔██╗░
+╚█████╔╝███████╗░░░██║░░░██╔╝╚██╗
+░╚════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝''')
     try:
         print("\n[*] Target : " +str(url_main)+ ":" +str(port))
     except:
